@@ -70,8 +70,8 @@ const MainStack = () => {
       >
         {userToken == null ? (
           <>
-            <Stack.Screen name="HomeStack" component={HomeStack} />
-            {/* <Stack.Screen name="Login" component={Login} /> */}
+            {/* <Stack.Screen name="HomeStack" component={HomeStack} /> */}
+            <Stack.Screen name="Login" component={Login} />
           </>
         ) : (
           <Stack.Screen name="HomeStack" component={HomeStack} />
