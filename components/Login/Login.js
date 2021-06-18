@@ -24,11 +24,17 @@ const Login = () => {
 
   return (
     <View style={styles.container}>
-      <Image
+      {/* <Image
         src={{
           uri: "https://www.gssst.edu.ba/storage/news-image/1613382878.jpg",
         }}
-        style={{ width: 100, height: 50 }}
+        style={{ width: 100, height: 100 }}
+      /> */}
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/7/73/IUS_Official_Logo.png"
+        alt="Girl in a jacket"
+        width="200"
+        height="200"
       />
       <Button
         title={"Sign in with Office 365"}

@@ -25,7 +25,7 @@ const Lecture = () => {
         <iframe
           height="200"
           width="100%"
-          src={`https://www.youtube.com/watch?v=fKKNPLowteY`}
+          src="https://www.youtube.com/embed/f241DBBtDbw"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
